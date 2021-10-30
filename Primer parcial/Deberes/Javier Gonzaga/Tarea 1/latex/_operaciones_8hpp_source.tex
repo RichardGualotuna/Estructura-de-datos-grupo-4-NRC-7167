@@ -1,0 +1,40 @@
+\hypertarget{_operaciones_8hpp_source}{}\doxysection{Operaciones.\+hpp}
+\label{_operaciones_8hpp_source}\index{src/include/Operaciones.hpp@{src/include/Operaciones.hpp}}
+\mbox{\hyperlink{_operaciones_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#if !defined(OPERACIONES\_HPP)}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define OPERACIONES\_HPP}}
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{keyword}{template} <\textcolor{keyword}{class} T>}
+\DoxyCodeLine{5 \textcolor{keyword}{class }\mbox{\hyperlink{class_operaciones}{Operaciones}}}
+\DoxyCodeLine{6 \{}
+\DoxyCodeLine{7 \textcolor{keyword}{private}:}
+\DoxyCodeLine{8     }
+\DoxyCodeLine{9 \textcolor{keyword}{public}:}
+\DoxyCodeLine{10     \textcolor{comment}{//Operaciones();}}
+\DoxyCodeLine{11     \textcolor{comment}{//\string~Operaciones();}}
+\DoxyCodeLine{12     \mbox{\hyperlink{class_operaciones_aa0dc24e92a33ec5fd464d7fde91afa8d}{Operaciones}}();}
+\DoxyCodeLine{13     T \mbox{\hyperlink{class_operaciones_a1c85726dd617f77d748d5232ec3c8fc6}{suma}}(T ,T);}
+\DoxyCodeLine{14     T \mbox{\hyperlink{class_operaciones_a84b7db35c8da846ecdf77d2aad659d22}{resta}}(T ,T);}
+\DoxyCodeLine{15     T \mbox{\hyperlink{class_operaciones_ab26c13871550f46370a89d0251d6e2a1}{multiplicacion}}(T, T);}
+\DoxyCodeLine{16     T \mbox{\hyperlink{class_operaciones_a3b270c76060ecd4c292019be7afa6523}{division}}(T, T);}
+\DoxyCodeLine{17 \};}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20 \textcolor{keyword}{template} <>}
+\DoxyCodeLine{21 \textcolor{keyword}{class }\mbox{\hyperlink{class_operaciones}{Operaciones}}<std::string>}
+\DoxyCodeLine{22 \{}
+\DoxyCodeLine{23     \textcolor{keyword}{public}:}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25     std::string \mbox{\hyperlink{class_operaciones_3_01std_1_1string_01_4_af2098a143d052b8e7319e94ef1655e2b}{concatenar}}(std::string val1, std::string val2)}
+\DoxyCodeLine{26     \{}
+\DoxyCodeLine{27         \textcolor{keywordflow}{return} val1 + val2;}
+\DoxyCodeLine{28     \}}
+\DoxyCodeLine{29 }
+\DoxyCodeLine{30 \}}
+\DoxyCodeLine{31 }
+\DoxyCodeLine{32 \textcolor{comment}{//\#include "{}../Operaciones.cpp"{}}}
+\DoxyCodeLine{33 }
+\DoxyCodeLine{34 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// OPERACIONES\_HPP}}
+
+\end{DoxyCode}
