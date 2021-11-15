@@ -1,0 +1,38 @@
+\hypertarget{_conjunto_8hpp_source}{}\doxysection{Conjunto.\+hpp}
+\label{_conjunto_8hpp_source}\index{src/include/Conjunto.hpp@{src/include/Conjunto.hpp}}
+\mbox{\hyperlink{_conjunto_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#if !defined(CONJUNTO\_HPP)}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#define CONJUNTO\_HPP}}
+\DoxyCodeLine{3 \textcolor{keyword}{const} \textcolor{keywordtype}{int} \mbox{\hyperlink{_conjunto_8hpp_ab2b6b0c222cd1ce70d6a831f57241e59}{N}} = 100;}
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <iostream>}}
+\DoxyCodeLine{5 \textcolor{keyword}{using namespace }std;}
+\DoxyCodeLine{6 }
+\DoxyCodeLine{7 \textcolor{keyword}{template}<\textcolor{keyword}{class} T>}
+\DoxyCodeLine{8 \textcolor{keyword}{class }\mbox{\hyperlink{classconjunto}{conjunto}};}
+\DoxyCodeLine{9 \textcolor{keyword}{template}<\textcolor{keyword}{class} T>}
+\DoxyCodeLine{10 ostream\& \mbox{\hyperlink{_conjunto_8hpp_a2dc9a5eaa01d5f4539e7950b2944d0c5}{operator <<}}(ostream \&o, \mbox{\hyperlink{classconjunto}{conjunto<T>}} \&A);}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 }
+\DoxyCodeLine{13 }
+\DoxyCodeLine{14 \textcolor{keyword}{template} <\textcolor{keyword}{class} T>}
+\DoxyCodeLine{15 \textcolor{keyword}{class }\mbox{\hyperlink{classconjunto}{conjunto}}\{}
+\DoxyCodeLine{16     \textcolor{keyword}{public}:}
+\DoxyCodeLine{17         \mbox{\hyperlink{classconjunto_abefeb7d6adb4d32a280a40da63e032b0}{conjunto}}();}
+\DoxyCodeLine{18         \textcolor{keywordtype}{void} \mbox{\hyperlink{classconjunto_a55cfefca5519aa258323293c88eb2a46}{imprimir}}();}
+\DoxyCodeLine{19         \textcolor{keywordtype}{void} \mbox{\hyperlink{classconjunto_aeb68b3eb2457c152e816000641c8e1f5}{ordenar}}();}
+\DoxyCodeLine{20         \textcolor{keywordtype}{bool} \mbox{\hyperlink{classconjunto_a211ef457230c4253b78987c1bf5468aa}{pertenece}}(\textcolor{keywordtype}{int} x);}
+\DoxyCodeLine{21         \textcolor{keywordtype}{void} \mbox{\hyperlink{classconjunto_a82f88f56a107c6e6a8057097730961e4}{operator+}}(\textcolor{keywordtype}{int} x);}
+\DoxyCodeLine{22         \textcolor{keyword}{friend} ostream \&\mbox{\hyperlink{classconjunto_ad589952fa28f82c295ee977cadf55cdb}{operator <<}}(ostream \&o, \textcolor{keyword}{const} \mbox{\hyperlink{classconjunto}{conjunto<T>}} \&\mbox{\hyperlink{classconjunto}{conjunto}})}
+\DoxyCodeLine{23         \{}
+\DoxyCodeLine{24             o<<\mbox{\hyperlink{classconjunto}{conjunto}}.\mbox{\hyperlink{classconjunto_a55cfefca5519aa258323293c88eb2a46}{imprimir}}();}
+\DoxyCodeLine{25         \}}
+\DoxyCodeLine{26         \textcolor{keywordtype}{int} \mbox{\hyperlink{classconjunto_ae28b40b4f43757e5267d3bc7d56b40f6}{elem}}[\mbox{\hyperlink{_conjunto_8hpp_ab2b6b0c222cd1ce70d6a831f57241e59}{N}}];}
+\DoxyCodeLine{27         \textcolor{keywordtype}{int} \mbox{\hyperlink{classconjunto_aa7c0f07c6ee918ffbb59179997ac126d}{ne}};}
+\DoxyCodeLine{28     \textcolor{keyword}{private}:}
+\DoxyCodeLine{29         }
+\DoxyCodeLine{30 \};}
+\DoxyCodeLine{31 }
+\DoxyCodeLine{32 \textcolor{preprocessor}{\#endif }\textcolor{comment}{// CONJUNTO\_HPP}}
+
+\end{DoxyCode}
