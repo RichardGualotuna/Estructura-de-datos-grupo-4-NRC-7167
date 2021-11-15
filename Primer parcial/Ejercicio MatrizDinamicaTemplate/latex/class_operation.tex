@@ -1,0 +1,273 @@
+\hypertarget{class_operation}{}\doxysection{Operation\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>} Class Template Reference}
+\label{class_operation}\index{Operation$<$ T $>$@{Operation$<$ T $>$}}
+
+
+{\ttfamily \#include $<$Operacion\+Matriz.\+hpp$>$}
+
+
+
+Collaboration diagram for Operation\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>}\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=184pt]{class_operation__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+T $\ast$$\ast$ \mbox{\hyperlink{class_operation_aeaa5a8af02a8ab9f39c25e6157badc35}{segmentar}} (T)
+\begin{DoxyCompactList}\small\item\em Reserva memoria para la matriz. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_operation_a678ba0edd804c2dae59f5466ed3dd245}{encerar}} (\mbox{\hyperlink{class_matriz}{Matriz}}$<$ T $>$, T)
+\begin{DoxyCompactList}\small\item\em Inicializa la matriz en cero. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_operation_a45643c6a578fc94788f6599c180c8cc1}{ingresar}} (\mbox{\hyperlink{class_matriz}{Matriz}}$<$ T $>$, T)
+\begin{DoxyCompactList}\small\item\em Asigna Valores a la matriz. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_operation_afd210f028a6bd469f4f7bbb2732e2c43}{calcular}} (\mbox{\hyperlink{class_matriz}{Matriz}}$<$ T $>$, \mbox{\hyperlink{class_matriz}{Matriz}}$<$ T $>$, \mbox{\hyperlink{class_matriz}{Matriz}}$<$ T $>$, T)
+\begin{DoxyCompactList}\small\item\em Multiplicacion de Matrices. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_operation_afb1b32e6d1db524e3764c74d3cb52c4e}{imprimir}} (\mbox{\hyperlink{class_matriz}{Matriz}}$<$ T $>$, T)
+\begin{DoxyCompactList}\small\item\em Impresion de la matriz. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_operation_a16b99d75be5e8c6105601cc16dd9d334}{copiar\+Matriz}} (\mbox{\hyperlink{class_matriz}{Matriz}}$<$ T $>$, \mbox{\hyperlink{class_matriz}{Matriz}}$<$ T $>$, T)
+\begin{DoxyCompactList}\small\item\em Copia los datos de una matriz. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_operation_a4a32193676bfc9d01322de5614ba48d7}{calcular\+Potencia}} (\mbox{\hyperlink{class_matriz}{Matriz}}$<$ T $>$, \mbox{\hyperlink{class_matriz}{Matriz}}$<$ T $>$, T, T)
+\begin{DoxyCompactList}\small\item\em Calcula la potencia de una matriz. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_operation_afd210f028a6bd469f4f7bbb2732e2c43}\label{class_operation_afd210f028a6bd469f4f7bbb2732e2c43}} 
+\index{Operation$<$ T $>$@{Operation$<$ T $>$}!calcular@{calcular}}
+\index{calcular@{calcular}!Operation$<$ T $>$@{Operation$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{calcular()}{calcular()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_operation}{Operation}}$<$ T $>$\+::calcular (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matriz}{Matriz}}$<$ T $>$}]{matrix\+\_\+1,  }\item[{\mbox{\hyperlink{class_matriz}{Matriz}}$<$ T $>$}]{matrix\+\_\+2,  }\item[{\mbox{\hyperlink{class_matriz}{Matriz}}$<$ T $>$}]{matrix\+\_\+r,  }\item[{T}]{dim }\end{DoxyParamCaption})}
+
+
+
+Multiplicacion de Matrices. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+matrix\+\_\+a} & \\
+\hline
+{\em \+\_\+matrix\+\_\+b} & \\
+\hline
+{\em \+\_\+matrix\+\_\+c} & \\
+\hline
+{\em longitud} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=309pt]{class_operation_afd210f028a6bd469f4f7bbb2732e2c43_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_operation_a4a32193676bfc9d01322de5614ba48d7}\label{class_operation_a4a32193676bfc9d01322de5614ba48d7}} 
+\index{Operation$<$ T $>$@{Operation$<$ T $>$}!calcularPotencia@{calcularPotencia}}
+\index{calcularPotencia@{calcularPotencia}!Operation$<$ T $>$@{Operation$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{calcularPotencia()}{calcularPotencia()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_operation}{Operation}}$<$ T $>$\+::calcular\+Potencia (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matriz}{Matriz}}$<$ T $>$}]{m1,  }\item[{\mbox{\hyperlink{class_matriz}{Matriz}}$<$ T $>$}]{mr,  }\item[{T}]{dim,  }\item[{T}]{potencia }\end{DoxyParamCaption})}
+
+
+
+Calcula la potencia de una matriz. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+matrix\+\_\+a} & \\
+\hline
+{\em \+\_\+matrix\+\_\+b} & \\
+\hline
+{\em longitud} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{class_operation_a4a32193676bfc9d01322de5614ba48d7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=291pt]{class_operation_a4a32193676bfc9d01322de5614ba48d7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_operation_a16b99d75be5e8c6105601cc16dd9d334}\label{class_operation_a16b99d75be5e8c6105601cc16dd9d334}} 
+\index{Operation$<$ T $>$@{Operation$<$ T $>$}!copiarMatriz@{copiarMatriz}}
+\index{copiarMatriz@{copiarMatriz}!Operation$<$ T $>$@{Operation$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{copiarMatriz()}{copiarMatriz()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_operation}{Operation}}$<$ T $>$\+::copiar\+Matriz (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matriz}{Matriz}}$<$ T $>$}]{m1,  }\item[{\mbox{\hyperlink{class_matriz}{Matriz}}$<$ T $>$}]{m2,  }\item[{T}]{dim }\end{DoxyParamCaption})}
+
+
+
+Copia los datos de una matriz. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+matrix\+\_\+a} & \\
+\hline
+{\em \+\_\+matrix\+\_\+b} & \\
+\hline
+{\em longitud} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=329pt]{class_operation_a16b99d75be5e8c6105601cc16dd9d334_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_operation_a678ba0edd804c2dae59f5466ed3dd245}\label{class_operation_a678ba0edd804c2dae59f5466ed3dd245}} 
+\index{Operation$<$ T $>$@{Operation$<$ T $>$}!encerar@{encerar}}
+\index{encerar@{encerar}!Operation$<$ T $>$@{Operation$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{encerar()}{encerar()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_operation}{Operation}}$<$ T $>$\+::encerar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matriz}{Matriz}}$<$ T $>$}]{matrix,  }\item[{T}]{dim }\end{DoxyParamCaption})}
+
+
+
+Inicializa la matriz en cero. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em matriz\+\_\+a} & \\
+\hline
+{\em longitud} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{class_operation_a678ba0edd804c2dae59f5466ed3dd245_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{class_operation_a678ba0edd804c2dae59f5466ed3dd245_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_operation_afb1b32e6d1db524e3764c74d3cb52c4e}\label{class_operation_afb1b32e6d1db524e3764c74d3cb52c4e}} 
+\index{Operation$<$ T $>$@{Operation$<$ T $>$}!imprimir@{imprimir}}
+\index{imprimir@{imprimir}!Operation$<$ T $>$@{Operation$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{imprimir()}{imprimir()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_operation}{Operation}}$<$ T $>$\+::imprimir (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matriz}{Matriz}}$<$ T $>$}]{matrix,  }\item[{T}]{dim }\end{DoxyParamCaption})}
+
+
+
+Impresion de la matriz. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+matrix\+\_\+a} & \\
+\hline
+{\em longitud} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{class_operation_afb1b32e6d1db524e3764c74d3cb52c4e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=253pt]{class_operation_afb1b32e6d1db524e3764c74d3cb52c4e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_operation_a45643c6a578fc94788f6599c180c8cc1}\label{class_operation_a45643c6a578fc94788f6599c180c8cc1}} 
+\index{Operation$<$ T $>$@{Operation$<$ T $>$}!ingresar@{ingresar}}
+\index{ingresar@{ingresar}!Operation$<$ T $>$@{Operation$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{ingresar()}{ingresar()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+void \mbox{\hyperlink{class_operation}{Operation}}$<$ T $>$\+::ingresar (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_matriz}{Matriz}}$<$ T $>$}]{matrix,  }\item[{T}]{dim }\end{DoxyParamCaption})}
+
+
+
+Asigna Valores a la matriz. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em matriz\+\_\+a} & \\
+\hline
+{\em longitud} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{class_operation_a45643c6a578fc94788f6599c180c8cc1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=253pt]{class_operation_a45643c6a578fc94788f6599c180c8cc1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_operation_aeaa5a8af02a8ab9f39c25e6157badc35}\label{class_operation_aeaa5a8af02a8ab9f39c25e6157badc35}} 
+\index{Operation$<$ T $>$@{Operation$<$ T $>$}!segmentar@{segmentar}}
+\index{segmentar@{segmentar}!Operation$<$ T $>$@{Operation$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{segmentar()}{segmentar()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+T $\ast$$\ast$ \mbox{\hyperlink{class_operation}{Operation}}$<$ T $>$\+::segmentar (\begin{DoxyParamCaption}\item[{T}]{dim }\end{DoxyParamCaption})}
+
+
+
+Reserva memoria para la matriz. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em longitud} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+la dirreccion de una matriz 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=321pt]{class_operation_aeaa5a8af02a8ab9f39c25e6157badc35_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=264pt]{class_operation_aeaa5a8af02a8ab9f39c25e6157badc35_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/include/\mbox{\hyperlink{_operacion_matriz_8hpp}{Operacion\+Matriz.\+hpp}}\item 
+src/include/\mbox{\hyperlink{_operacion_matriz_8cpp}{Operacion\+Matriz.\+cpp}}\end{DoxyCompactItemize}
