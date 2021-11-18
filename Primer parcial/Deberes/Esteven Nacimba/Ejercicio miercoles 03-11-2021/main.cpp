@@ -44,7 +44,6 @@ int main(int argc, char** argv) {
 		}
 	}
 	
-	
 	if(f3.getFormula()<0){
 		cout<<"\n El resultado es dos raices complejas";
 	}else{
@@ -54,7 +53,6 @@ int main(int argc, char** argv) {
 			cout<<"\n El resultado son dos raices iguales";
 		}
 	}
-	
 	
 	return 0;
 }
