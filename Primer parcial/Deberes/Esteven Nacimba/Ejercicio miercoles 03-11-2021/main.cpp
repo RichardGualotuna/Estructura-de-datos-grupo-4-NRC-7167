@@ -1,11 +1,11 @@
-/***********************************************************************
+/*************************************************************************
  * Universidad de las Fuerzas Armadas Espe
  * Module:  Aplicativo
  * Author:  Esteven Nacimba 
  * Fecha de creacion: 03/11/2021 15:00pm
- * Fecha de modificación:  
+ * Fecha de modificaciÃ³n:  
  * Materia: Estructura de Datos Nrc: 7167
- ***********************************************************************/
+ *************************************************************************/
 
 #include <iostream>
 #include "plantillaCuadratica.h"
@@ -55,9 +55,6 @@ int main(int argc, char** argv) {
 		}
 	}
 	
-
-
-
 	
 	return 0;
 }
