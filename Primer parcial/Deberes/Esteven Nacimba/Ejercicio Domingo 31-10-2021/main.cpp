@@ -3,7 +3,7 @@
  * Module:  Aplicativo
  * Author:  Esteven Nacimba 21:18pm
  * Fecha de creacion: 31/10/2021 21 pm
- * Fecha de modificación:  
+ * Fecha de modificaciÃ³n:  
  * Materia: Estructura de Datos Nrc: 7167
  ***********************************************************************/
 
@@ -16,7 +16,6 @@ using namespace std;
 
 int main(int argc, char** argv) {
 
-
 	int num1,num2;
 	float num3,num4;
 	
@@ -27,6 +26,5 @@ int main(int argc, char** argv) {
 	
 	cout<<mayor(num1,num2)<<" es el numero mayor ";
 
-	
 	return 0;
 }
