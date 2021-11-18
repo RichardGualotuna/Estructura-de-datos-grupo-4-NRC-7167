@@ -1,11 +1,11 @@
-/***********************************************************************
+/************************************************************************
  * Universidad de las Fuerzas Armadas Espe
  * Module:  Aplicativo
  * Author:  Esteven Nacimba 
  * Fecha de creacion: 02/10/2021 15:00pm
- * Fecha de modificación:  
+ * Fecha de modificaciÃ³n:  
  * Materia: Estructura de Datos Nrc: 7167
- ***********************************************************************/
+ ************************************************************************/
 
 #include <iostream>
 #include <stdlib.h>
@@ -23,13 +23,10 @@ int main(int argc, char** argv) {
 	volumen<float> v2(8, 3);
 	volumen<float> v3(7, 6);
 	
-
 	cout<<"\n El volumen es: "<<v1.getVolumen();
 	cout<<"\n El volumen es: "<<v2.getVolumen();
 	cout<<"\n El volumen es: "<<v3.getVolumen();
 	
-
-
 	
 	return 0;
 }
