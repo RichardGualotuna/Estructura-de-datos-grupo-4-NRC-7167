@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1639534971 source:c:\users\pc-home\documents\estructura de datos\code\lambda\ejemplolambda\main.cpp
+	<vector>
+	<algorithm>
+	<iostream>
+
