@@ -11,16 +11,12 @@
 #include "division.cpp"
 using namespace std;
 int main(int argc, char** argv) {
-
 	int num1,num2;
 	float num3,num4;
-	
 	cout<<"Ingresar primer numero: ";
 	cin>>num1;
 	cout<<"Ingresar segundo numero: ";
 	cin>>num2;
-	
-	//cout<<mayor(num1,num2)<<" es el numero mayor ";
-
+	//cout<<mayor(num1,num2)<<" es el numero mayor "
 	return 0;
 }
