@@ -6,14 +6,10 @@
  * Fecha de modificación:  
  * Materia: Estructura de Datos Nrc: 7167
  ***********************************************************************/
-
 #include <iostream>
 #include <stdlib.h>
 #include "division.cpp"
-
-
 using namespace std;
-
 int main(int argc, char** argv) {
 
 	int num1,num2;
