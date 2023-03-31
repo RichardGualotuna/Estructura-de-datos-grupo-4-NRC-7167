@@ -20,7 +20,7 @@ int main(int argc, char** argv) {
 	cout<<"Ingresar segundo numero: ";
 	cin>>num2;
 	
-	cout<<mayor(num1,num2)<<" es el numero mayor ";
+	//cout<<mayor(num1,num2)<<" es el numero mayor ";
 
 	return 0;
 }
